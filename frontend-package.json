@@ -1,0 +1,25 @@
+{
+  "name": "mafia-online-frontend",
+  "version": "1.0.0",
+  "description": "Mafia Online Game Frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-react": "^7.18.0",
+    "babel-loader": "^9.1.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.0",
+    "firebase": "^9.15.0",
+    "firebase-functions": "^6.1.1"
+  }
+}
